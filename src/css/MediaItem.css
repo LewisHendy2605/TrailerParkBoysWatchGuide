@@ -1,0 +1,10 @@
+.media-item {
+  background-color: blueviolet;
+  width: auto;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+}

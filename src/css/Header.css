@@ -1,0 +1,13 @@
+.header {
+  background-color: gray;
+  width: 90dvw;
+  height: 15dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: "Figtree", sans-serif;
+  border-radius: 20px;
+  margin: 10px auto;
+}

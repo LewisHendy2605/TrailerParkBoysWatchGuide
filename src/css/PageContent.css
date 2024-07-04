@@ -1,0 +1,9 @@
+.page-content {
+  width: 60vw;
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 80vh; /* Limit the height to 80% of viewport height */
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  outline: auto;
+}
