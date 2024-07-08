@@ -6,9 +6,27 @@ const PageContent = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("/TrailerParkBoysWatchGuide/data.json")
-      .then((response) => response.json())
-      .then((data) => setData(data));
+    const fetchData = async () => {
+      try {
+        let response = await fetch("/TrailerParkBoysWatchGuide/data.json");
+        if (!response.ok) throw new Error("First URL failed");
+        let data = await response.json();
+        setData(data);
+      } catch (error) {
+        console.error("Error fetching from first URL:", error);
+        try {
+          let response = await fetch("/data.json");
+          if (!response.ok) throw new Error("Second URL failed");
+          let data = await response.json();
+          setData(data);
+        } catch (error) {
+          console.error("Error fetching from second URL:", error);
+          // Handle the error appropriately here, e.g., show a message to the user
+        }
+      }
+    };
+
+    fetchData();
   }, []);
 
   if (!data) {

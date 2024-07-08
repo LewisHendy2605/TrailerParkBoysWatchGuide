@@ -1,31 +1,52 @@
 :root {
-  --box-height: 10%;
+  --box-height: 10rem;
+  --box-margin: 1rem 2.5rem;
+  --box-padding: 0.625rem;
+  --border-radius: 1.25rem;
+  --border-width: 0.125rem;
+  --font-size: 1.25rem;
+  --font-family: "Figtree", sans-serif;
 }
+
 .media-item {
   background-color: gray;
   width: 70%;
   height: auto;
   display: flex;
   flex-direction: row;
-  margin: 20px 50px;
-  border-radius: 20px;
-  border: 2px solid black;
+  margin: var(--box-margin);
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid black;
+  overflow: hidden;
 }
+
 .media-item-img {
   width: 30%;
-  height: 20%;
+  height: var(--box-height);
   object-fit: cover;
-  border-radius: 20px;
-  border: 2px solid black;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-right: none;
 }
 
 .media-item-info {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  margin: 5px;
+  padding: var(--box-padding);
   color: white;
   font-weight: 500;
-  font-size: 20px;
-  font-family: "Figtree", sans-serif;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}
+
+@media (max-width: 768px) {
+  .media-item {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .media-item-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
 }
