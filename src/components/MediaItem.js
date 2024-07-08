@@ -15,7 +15,6 @@ const truncateText = (text, wordLimit) => {
 };
 /// NEED TO add alternative path for local set up
 const MediaItem = ({ item }) => {
-  console.log(item.title);
   return (
     <div className="media-item">
       <img

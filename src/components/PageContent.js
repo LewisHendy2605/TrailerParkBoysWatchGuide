@@ -1,9 +1,11 @@
 import MediaItem from "./MediaItem";
+import MediaItemOverlay from "./MediaItemOverlay";
 import "../css/PageContent.css";
 import { useEffect, useState } from "react";
 
 const PageContent = () => {
   const [data, setData] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,7 +23,7 @@ const PageContent = () => {
           setData(data);
         } catch (error) {
           console.error("Error fetching from second URL:", error);
-          // Handle the error appropriately here, e.g., show a message to the user
+          return <p>Loading...</p>;
         }
       }
     };
@@ -36,10 +38,16 @@ const PageContent = () => {
   return (
     <div className="page-content">
       {data.trailer_park_boys_watch_order.map((item, index) => (
-        <div className="item">
+        <div className="item" key={index} onClick={() => setSelectedItem(item)}>
           <MediaItem item={item} />
         </div>
       ))}
+      {selectedItem && (
+        <MediaItemOverlay
+          item={selectedItem}
+          onClose={() => setSelectedItem(null)}
+        />
+      )}
     </div>
   );
 };
