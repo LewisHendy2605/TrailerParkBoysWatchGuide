@@ -9,7 +9,8 @@
   width: var(--content-width);
   height: var(--content-height);
   overflow-y: auto;
-  outline: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
