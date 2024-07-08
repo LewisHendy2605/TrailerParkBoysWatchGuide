@@ -6,6 +6,15 @@
   --border-width: 0.125rem;
   --font-size: 1.25rem;
   --font-family: "Figtree", sans-serif;
+  --transition-duration: 0.3s;
+  --hover-bg-color: darkgray;
+  --hover-scale: 1.05;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .media-item {
@@ -20,6 +29,14 @@
   border-radius: var(--border-radius);
   border: var(--border-width) solid black;
   overflow: hidden;
+  transition: background-color var(--transition-duration),
+    transform var(--transition-duration);
+}
+
+.media-item:hover,
+.media-item:focus {
+  background-color: var(--hover-bg-color);
+  transform: scale(var(--hover-scale));
 }
 
 .media-item-img {
@@ -43,12 +60,13 @@
 @media (max-width: 768px) {
   .media-item {
     flex-direction: column;
-    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .media-item-img {
     width: 100%;
-    height: auto;
+    height: 40%;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   }
 }
