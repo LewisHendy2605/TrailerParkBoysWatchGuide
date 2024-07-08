@@ -1,22 +1,32 @@
 import React from "react";
 import "../css/MediaItem.css";
 
-const MediaItem = ({ imageName }) => {
-  const width = "90px";
-  const height = "100px";
+// Helper function to truncate text
+const truncateText = (text, wordLimit) => {
+  if (typeof text !== "string") {
+    return "";
+  }
+
+  const words = text.split(" ");
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(" ") + "...";
+  }
+  return text;
+};
+
+const MediaItem = ({ item }) => {
   return (
     <div className="media-item">
       <img
-        src={`/images/${imageName}`}
-        alt={imageName}
-        style={{
-          width: "90px",
-          height: "100px",
-          objectFit: "cover",
-          borderRadius: "10px",
-        }}
+        src={`/images/${item.image_path}`}
+        alt={item.image_path}
+        className="media-item-img"
       />
-      <div>TPB Season</div>
+      <div className="media-item-info">
+        <div>{item.title}</div>
+        <div>Year: {item.release_year}</div>
+        <div>Desc: {truncateText(item.desc, 10)}</div>
+      </div>
     </div>
   );
 };

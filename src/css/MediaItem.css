@@ -1,10 +1,31 @@
+:root {
+  --box-height: 10%;
+}
 .media-item {
-  background-color: blueviolet;
-  width: auto;
-  height: 130px;
+  background-color: gray;
+  width: 70%;
+  height: auto;
   display: flex;
   flex-direction: row;
   margin: 20px 50px;
-  border-radius: 10px;
-  border: 1px solid black;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.media-item-img {
+  width: 30%;
+  height: 20%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.media-item-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Figtree", sans-serif;
 }
