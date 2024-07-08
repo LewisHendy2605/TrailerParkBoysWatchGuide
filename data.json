@@ -47,7 +47,7 @@
       "title": "The Trailer Park Boys Xmas Special",
       "release_year": 2004,
       "desc": "In this holiday prequel, it's 1997 and Sunnyvale Trailer Park is getting ready for the holiday season. Julian's got a great idea to make money this Christmas, Ricky gets confused between God and Santa, and Bubbles tries to get the Boys together for an annual Christmas bonfire.",
-      "image_path": ""
+      "image_path": "/tpb-xmas.jpg"
     },
     {
       "type": "series",
@@ -61,7 +61,7 @@
       "title": "Trailer Park Boys: The Movie/The Big Dirty ",
       "release_year": 2006,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-the-movie.jpg"
     },
     {
       "type": "series",
@@ -82,28 +82,28 @@
       "title": "Trailer Park Boys: Say Goodnight to the Bad Guys",
       "release_year": 2008,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-say-goodnight-to-the-bad-guys.jpg"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys: Countdown to Liquor Day",
       "release_year": 2009,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-countdown-to-liqour-day.jpg"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys: Don't Legalize It",
       "release_year": 2014,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-dont-legalize-it.jpg"
     },
     {
       "type": "movie",
       "title": " Swearnet: The Movie",
       "release_year": 2014,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/swearnet-the-movie.jpg"
     },
     {
       "type": "series",
@@ -131,14 +131,14 @@
       "title": "Trailer Park Boys: Out of the Park: Europe",
       "release_year": 2016,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-europe.jpg"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Out of the Park: USA",
       "release_year": 2017,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-usa.jpg"
     },
     {
       "type": "series",
@@ -159,14 +159,14 @@
       "title": "Trailer Park Boys: The Animated Series: Series 1",
       "release_year": 2019,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-animated-1.jpg"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: The Animated Series: Series 2",
       "release_year": 2020,
       "desc": 2018,
-      "image_path": ""
+      "image_path": "/tpb-animated-three.jpg"
     }
   ]
 }
