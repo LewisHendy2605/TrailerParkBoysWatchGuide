@@ -18,7 +18,7 @@ const MediaItem = ({ item }) => {
   return (
     <div className="media-item">
       <img
-        src={`/images/${item.image_path}`}
+        src={`/TrailerParkBoysWatchGuide/images${item.image_path}`}
         alt={item.image_path}
         className="media-item-img"
       />

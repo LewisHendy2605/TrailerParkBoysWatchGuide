@@ -6,7 +6,7 @@ const PageContent = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch("/TrailerParkBoysWatchGuide/data.json")
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
