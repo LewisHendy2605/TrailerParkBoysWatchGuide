@@ -64,13 +64,25 @@
 @media (max-width: 768px) {
   .media-item {
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    align-items: center;
   }
 
   .media-item-img {
     width: 100%;
-    height: 40%;
+    height: auto;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+
+  .media-item-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .media-item-info h2 {
+    font-size: 1.5rem;
   }
 }
