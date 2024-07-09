@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TrailerParkBoysWatchGuide/static/css/main.f5979887.css",
-    "main.js": "/TrailerParkBoysWatchGuide/static/js/main.46c71c4e.js",
+    "main.css": "/TrailerParkBoysWatchGuide/static/css/main.d8fe86b8.css",
+    "main.js": "/TrailerParkBoysWatchGuide/static/js/main.5d0f662f.js",
     "static/js/453.49528d9e.chunk.js": "/TrailerParkBoysWatchGuide/static/js/453.49528d9e.chunk.js",
     "index.html": "/TrailerParkBoysWatchGuide/index.html",
-    "main.f5979887.css.map": "/TrailerParkBoysWatchGuide/static/css/main.f5979887.css.map",
-    "main.46c71c4e.js.map": "/TrailerParkBoysWatchGuide/static/js/main.46c71c4e.js.map",
+    "main.d8fe86b8.css.map": "/TrailerParkBoysWatchGuide/static/css/main.d8fe86b8.css.map",
+    "main.5d0f662f.js.map": "/TrailerParkBoysWatchGuide/static/js/main.5d0f662f.js.map",
     "453.49528d9e.chunk.js.map": "/TrailerParkBoysWatchGuide/static/js/453.49528d9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5979887.css",
-    "static/js/main.46c71c4e.js"
+    "static/css/main.d8fe86b8.css",
+    "static/js/main.5d0f662f.js"
   ]
 }
