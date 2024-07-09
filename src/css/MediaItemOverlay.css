@@ -60,3 +60,13 @@
 .overlay-info h2 {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .overlay-content {
+    padding: 1rem;
+    width: 95%;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+}

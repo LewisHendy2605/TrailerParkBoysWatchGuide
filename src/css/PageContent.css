@@ -1,5 +1,5 @@
 :root {
-  --content-width: 60%;
+  --content-width: 80%;
   --content-height: 80vh;
   --content-margin: 10px auto;
   --content-padding: 1rem;
@@ -11,11 +11,12 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
   .page-content {
-    width: 90%; /* Make it wider on smaller screens */
+    width: 100%; /* Make it wider on smaller screens */
     height: auto; /* Adjust height for better flexibility */
   }
 }
