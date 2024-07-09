@@ -23,9 +23,9 @@ const MediaItem = ({ item }) => {
         className="media-item-img"
       />
       <div className="media-item-info">
-        <div>{item.title}</div>
-        <div>Year: {item.release_year}</div>
-        <div>Desc: {truncateText(item.desc, 10)}</div>
+        <h2>{item.title}</h2>
+        <p>Year: {item.release_year}</p>
+        <p>Desc: {truncateText(item.desc, 10)}</p>
       </div>
     </div>
   );

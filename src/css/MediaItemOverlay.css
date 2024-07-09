@@ -52,5 +52,11 @@
 }
 
 .overlay-info h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Anton SC", sans-serif;
+}
+
+.overlay-info h2 {
   margin-bottom: 1rem;
 }
