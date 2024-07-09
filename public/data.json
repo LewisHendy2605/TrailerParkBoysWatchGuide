@@ -5,168 +5,192 @@
       "title": "The Cartboy",
       "release_year": 1995,
       "desc": "Two mall security guards confront the mysterious Cart Boy who has been stealing shopping carts from the mall's parking lot.",
-      "image_path": "/the_cartboy_image.jpg"
+      "image_path": "/the_cartboy_image.jpg",
+      "watch_location": "https://www.youtube.com/watch?v=FaMp8miCosw"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys",
       "release_year": 1999,
       "desc": "Two petty felons have a documentary made about their life in a trailer park.",
-      "image_path": "/tpb-1999.jpg"
+      "image_path": "/tpb-1999.jpg",
+      "watch_location": "https://archive.org/details/trailer-park-boys-pilot-1999"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 1",
       "release_year": 2001,
       "desc": "After spending 18 months in jail, Sunnyvale's Ricky and Julian head home, looking to get things back on track. But when they return, a bully has taken control of their beloved park.",
-      "image_path": "/tpb-season-1.jpg"
+      "image_path": "/tpb-season-1.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 2",
       "release_year": 2002,
       "desc": "After 14 months of jail time, Ricky and Julian return to find that Sunnyvale is a disaster",
-      "image_path": "/tpb-season-2.jpg"
+      "image_path": "/tpb-season-2.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 3",
       "release_year": 2003,
       "desc": "After 6 months in jail, Ricky and Julian are released from prison tens of thousands of dollars richer. While Julian attempts to invest his share, Ricky squanders his own",
-      "image_path": "/tpb-season-3.jpg"
+      "image_path": "/tpb-season-3.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 4",
       "release_year": 2004,
       "desc": "After 9 months behind bars, Julian, Randy, and Mr. Lahey are released from jail. They discover that Ricky has become the new supervisor of Sunnyvale Trailer Park",
-      "image_path": "/tpb-season-4.jpg"
+      "image_path": "/tpb-season-4.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "The Trailer Park Boys Xmas Special",
       "release_year": 2004,
       "desc": "In this holiday prequel, it's 1997 and Sunnyvale Trailer Park is getting ready for the holiday season. Julian's got a great idea to make money this Christmas, Ricky gets confused between God and Santa, and Bubbles tries to get the Boys together for an annual Christmas bonfire.",
-      "image_path": "/tpb-xmas.jpg"
+      "image_path": "/tpb-xmas.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=70143440"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 5",
       "release_year": 2005,
-      "desc": 2018,
-      "image_path": "/tpb-season-5.jpg"
+      "desc": "The boys return from a stint in jail to discover that Cory and Trevor have squandered all of the pot profits; Lahey's time in a mental institution seems to have done him some good.",
+      "image_path": "/tpb-season-5.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "movie",
-      "title": "Trailer Park Boys: The Movie/The Big Dirty ",
+      "title": "Trailer Park Boys: The Movie ",
       "release_year": 2006,
-      "desc": 2018,
-      "image_path": "/tpb-the-movie.jpg"
+      "desc": "Ricky, Julian, and Bubbles come up with a scheme to steal large amounts of untraceable coins. ",
+      "image_path": "/tpb-the-movie.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=70069233"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 6",
       "release_year": 2006,
-      "desc": 2018,
-      "image_path": "/tpb-season-6.jpg"
+      "desc": "Since out of jail Ricky starts making money in recyclables with Ray. Julian makes a lot of money in jail selling vodka",
+      "image_path": "/tpb-season-6.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 7",
       "release_year": 2007,
-      "desc": 2018,
-      "image_path": "/tpb-season-7.jpg"
+      "desc": "Ricky, Julian and Bubbles are stealing meat from a grocery store in an effort to make money. Julian however, inspired by the words of his 3rd grade teacher, decides to quit stealing and seek legal gainful employment, and gets a job delivering pizzas",
+      "image_path": "/tpb-season-7.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys: Say Goodnight to the Bad Guys",
       "release_year": 2008,
-      "desc": 2018,
-      "image_path": "/tpb-say-goodnight-to-the-bad-guys.jpg"
+      "desc": "It has been one year since the boys have become rich. Julian decided to keep the money safe, but when it comes time for everyone to get their share, the money is lost forever.",
+      "image_path": "/tpb-say-goodnight-to-the-bad-guys.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=70304189"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys: Countdown to Liquor Day",
       "release_year": 2009,
-      "desc": 2018,
-      "image_path": "/tpb-countdown-to-liqour-day.jpg"
+      "desc": "After their latest jail stint, boozy pals Julian, Bubbles and Ricky plan to go legit but learn trailer park manager Jim aims to demolish their homes",
+      "image_path": "/tpb-countdown-to-liqour-day.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=70128549"
     },
     {
       "type": "movie",
       "title": "Trailer Park Boys: Don't Legalize It",
       "release_year": 2014,
-      "desc": 2018,
-      "image_path": "/tpb-dont-legalize-it.jpg"
+      "desc": "After his latest money-making plan fails, Julian concocts his greatest scheme ever -- which involves doing business with his archenemy, Cyrus.",
+      "image_path": "/tpb-dont-legalize-it.jpg",
+      "watch_location": "https://vimeopro.com/topsailproductions/tpbiii-dont-legalize-it/video/87832144"
     },
     {
       "type": "movie",
       "title": " Swearnet: The Movie",
       "release_year": 2014,
-      "desc": 2018,
-      "image_path": "/swearnet-the-movie.jpg"
+      "desc": "After losing a TV network deal, the Trailer Park Boys launch their own Internet series, but they soon confront personal and creative differences.",
+      "image_path": "/swearnet-the-movie.jpg",
+      "watch_location": "https://www.netflix.com/search?q=swearnet&jbv=70304191"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 8",
       "release_year": 2014,
-      "desc": 2018,
-      "image_path": "/tpb-season-8.jpg"
+      "desc": "Julian, Ricky and Bubbles each have new moneymaking schemes, Jim Lahey is on the verge of retiring and Randy has a new assistant, Don.",
+      "image_path": "/tpb-season-8.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 9",
       "release_year": 2015,
-      "desc": 2018,
-      "image_path": "/tpb-season-9.jpg"
+      "desc": "Julian and Ricky get out of jail and return to Sunnyvale Trailer Park, but when they arrive, they find nothing is as they left it.",
+      "image_path": "/tpb-season-9.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 10",
       "release_year": 2016,
-      "desc": 2018,
-      "image_path": "/tpb-season-10.jpg"
+      "desc": "Ricky, Julian, and bubbles have the park in good hands and everything seems to be going well, until Barbara and her gang come back from jail looking to regain the park.",
+      "image_path": "/tpb-season-10.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Out of the Park: Europe",
       "release_year": 2016,
-      "desc": 2018,
-      "image_path": "/tpb-europe.jpg"
+      "desc": "The Trailer Park Boys are thrilled to get a free trip to Europe, until they arrive and learn about their corporate sponsor's unusual requirements",
+      "image_path": "/tpb-europe.jpg",
+      "watch_location": "https://www.netflix.com/search?q=swearnet&jbv=80094260"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Out of the Park: USA",
       "release_year": 2017,
-      "desc": 2018,
-      "image_path": "/tpb-usa.jpg"
+      "desc": "Ricky, Julian, and Bubbles go to Europe for a paid vacation and realize when they get there they have to complete tasks in different countries to earn money to party.",
+      "image_path": "/tpb-usa.jpg",
+      "watch_location": "https://www.netflix.com/search?q=swearnet&jbv=80198545"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 11",
       "release_year": 2017,
-      "desc": 2018,
-      "image_path": "/tpb-season-11.jpg"
+      "desc": "Bubbles and Ricky, along with the park residents, begin a new business venture. Julian and Snoop Dogg come back into the picture with a big proposal for them.",
+      "image_path": "/tpb-season-11.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: Series 12",
       "release_year": 2018,
-      "desc": 2018,
-      "image_path": "/tpb-season-12.jpg"
+      "desc": "Bubble's new brewing business is taking off, but things aren't going well for Julian and even worse for Ricky, who claims he has a big announcement.",
+      "image_path": "/tpb-season-12.jpg",
+      "watch_location": "https://www.netflix.com/title/70153385"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: The Animated Series: Series 1",
       "release_year": 2019,
       "desc": 2018,
-      "image_path": "/tpb-animated-1.jpg"
+      "image_path": "/tpb-animated-1.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=80235932"
     },
     {
       "type": "series",
       "title": "Trailer Park Boys: The Animated Series: Series 2",
       "release_year": 2020,
       "desc": 2018,
-      "image_path": "/tpb-animated-three.jpg"
+      "image_path": "/tpb-animated-three.jpg",
+      "watch_location": "https://www.netflix.com/search?q=trail&jbv=80235932"
     }
   ]
 }
